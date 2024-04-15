@@ -39,28 +39,28 @@
         </p>
       </div>
     </div>
-    <form class="row g-3 needs-validation" novalidate>
-      <div class="col-md-4">
+    <form id="form" class="row g-3 needs-validation" onsubmit="checkMatch()" novalidate>
+      <div class="col-auto">
         <label for="validationCustom01" class="form-label">First name</label>
         <input type="text" class="form-control" id="validationCustom01" placeholder="Enter First Name" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-auto">
         <label for="validationCustom02" class="form-label">Last name</label>
         <input type="text" class="form-control" id="validationCustom02" placeholder="Enter Last Name" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
-      <div class="mb-3">
-        <label for="InputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="InputEmail1" placeholder="Enter Email" aria-describedby="emailHelp">
+      <div class="col-auto">
+        <label for="inputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="enterEmail" placeholder="Enter Email" aria-describedby="emailHelp" required>
       </div>
-      <div class="mb-3">
-        <label for="InputEmail2" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="InputEmail2" placeholder="Confirm Email" aria-describedby="emailHelp">
+      <div class="col-auto">
+        <label for="inputEmail2" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="confirmEmail" placeholder="Confirm Email" aria-describedby="emailHelp" required>
       </div>
       <div class="input-group">
         <span class="input-group-text">Questions?</span>
