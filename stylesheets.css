@@ -7,8 +7,8 @@
 }
 .sideinformation {
     display: flex;
-    justify-content: right;
     background-color: red;
+    position: relative;
 }
 h1 {
     display: flex;
@@ -16,5 +16,11 @@ h1 {
 }
 .flexit {
     display: flex;
+    justify-content: space-between;
+    position: static;
 }
 a:hover {background-color: #f00 !important;} 
+
+form {
+    max-width: fit-content;
+}
