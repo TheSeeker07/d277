@@ -9,6 +9,7 @@
     display: flex;
     background-color: red;
     position: relative;
+    font-size: 14px;
 }
 h1 {
     display: flex;
@@ -23,4 +24,14 @@ a:hover {background-color: #f00 !important;}
 
 form {
     max-width: fit-content;
+}
+
+#tennesseeParagraph {
+    background-color: aqua;
+    font-size: 20px;
+}
+
+#nashvilleParagraph {
+    background-color: aqua;
+    font-size: 20px;
 }
