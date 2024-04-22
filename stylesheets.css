@@ -1,10 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-.section {
-    display: flex;
-    background-color: beige;
-}
 .sideinformation {
     display: flex;
     background-color: red;
@@ -20,6 +16,7 @@ h1 {
     justify-content: space-between;
     position: static;
 }
+
 a:hover {background-color: #f00 !important;} 
 
 form {
