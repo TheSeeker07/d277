@@ -97,29 +97,29 @@
     <form id="form" class="row g-3 needs-validation" onsubmit="checkMatch()" novalidate>
       <div class="col-auto">
         <label for="firstName" class="form-label">First name</label>
-        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" required>
+        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" aria-describedby="enter first name" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
       <div class="col-auto">
         <label for="lastName" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
+        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" aria-describedby="enter last name" required>
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
       <div class="col-auto">
         <label for="enterEmail" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="enterEmail" placeholder="Enter Email" aria-describedby="emailHelp" required>
+        <input type="email" class="form-control" id="enterEmail" placeholder="Enter Email" aria-describedby="enter your email" required>
       </div>
       <div class="col-auto">
         <label for="confirmEmail" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="confirmEmail" placeholder="Confirm Email" aria-describedby="emailHelp" required>
+        <input type="email" class="form-control" id="confirmEmail" placeholder="Confirm Email" aria-describedby="confirm your email" required>
       </div>
       <div class="input-group">
         <span class="input-group-text">Questions?</span>
-        <textarea id="form-field" class="form-control" placeholder="Enter questions here" aria-label="With textarea"></textarea>
+        <textarea id="form-field" class="form-control" placeholder="Enter questions here" aria-label="enter any questions"></textarea>
       </div>
       <div class="col-12">
         <button class="btn btn-primary" type="submit">Submit form</button>
